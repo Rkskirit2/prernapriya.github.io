@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Professional Resume of Java Developer Prerna Priya" />
+  <title>Prerna Priya | Java Developer</title>
+  <style>
+    /* ---------- GLOBAL ---------- */
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #f5f7fa;
+      color: #333;
+      line-height: 1.7;
+    }
+
+    a {
+      color: #0073e6;
+      text-decoration: none;
+    }
+
+    h1, h2, h3 {
+      color: #111;
+    }
+
+    /* ---------- HEADER ---------- */
+    header {
+      background-color: #1e2a38;
+      color: #fff;
+      text-align: center;
+      padding: 2rem 1rem;
+    }
+
+    header img {
+      width: 140px;
+      height: 140px;
+      border-radius: 50%;
+      border: 3px solid #fff;
+      object-fit: cover;
+      margin-bottom: 1rem;
+    }
+
+    header h1 {
+      font-size: 2rem;
+      margin-bottom: 0.3rem;
+      color: whitesmoke;
+    }
+
+    header p {
+      color: #ccc;
+      font-size: 1rem;
+    }
+
+    /* ---------- CONTAINER ---------- */
+    .container {
+      max-width: 900px;
+      margin: 2rem auto;
+      background-color: #fff;
+      border-radius: 12px;
+      box-shadow: 0 3px 12px rgba(0, 0, 0, 0.1);
+      overflow: hidden;
+    }
+
+    section {
+      padding: 2rem;
+      border-bottom: 1px solid #eee;
+    }
+
+    section:last-child {
+      border-bottom: none;
+    }
+
+    .section-title {
+      font-size: 1.4rem;
+      font-weight: 600;
+      color: #0073e6;
+      margin-bottom: 1rem;
+      border-left: 5px solid #0073e6;
+      padding-left: 10px;
+    }
+
+    /* ---------- PROFILE ---------- */
+    #profile p {
+      font-size: 1rem;
+      text-align: justify;
+    }
+
+    /* ---------- EXPERIENCE ---------- */
+    .experience-item {
+      margin-bottom: 1.5rem;
+    }
+
+    .experience-item h3 {
+      font-size: 1.1rem;
+      color: #222;
+    }
+
+    .experience-item p {
+      color: #555;
+    }
+
+    ul.responsibilities {
+      list-style: disc;
+      margin-left: 1.5rem;
+      margin-top: 0.5rem;
+    }
+
+    /* ---------- SKILLS ---------- */
+    .skills-list {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.7rem;
+    }
+
+    .skill {
+      background-color: #e6f0ff;
+      padding: 0.5rem 1rem;
+      border-radius: 25px;
+      font-size: 0.95rem;
+      color: #004080;
+      font-weight: 500;
+    }
+
+    /* ---------- EDUCATION ---------- */
+    .education-item {
+      margin-bottom: 1rem;
+    }
+
+    .education-item h3 {
+      font-size: 1.1rem;
+    }
+
+    /* ---------- PROJECTS ---------- */
+    .project {
+      margin-bottom: 1.5rem;
+    }
+
+    .project h3 {
+      font-size: 1.1rem;
+    }
+
+    .project p {
+      color: #555;
+    }
+
+    /* ---------- CONTACT ---------- */
+    .contact-info p {
+      margin-bottom: 0.5rem;
+    }
+
+    /* ---------- FOOTER ---------- */
+    footer {
+      background-color: #1e2a38;
+      color: #ccc;
+      text-align: center;
+      padding: 1rem;
+      font-size: 0.9rem;
+    }
+
+    /* ---------- BUTTON ---------- */
+    .toggle-btn {
+      background-color: #0073e6;
+      color: #fff;
+      border: none;
+      padding: 0.4rem 0.8rem;
+      border-radius: 6px;
+      cursor: pointer;
+      font-size: 0.9rem;
+      float: right;
+    }
+
+    .toggle-btn:hover {
+      background-color: #005bb5;
+    }
+
+    /* ---------- RESPONSIVE ---------- */
+    @media (max-width: 600px) {
+      header h1 {
+        font-size: 1.6rem;
+
+      }
+      section {
+        padding: 1.2rem;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <img src="F:\projects\20250613_192523.jpg" alt="Profile photo of Prerna Priya">
+    <h1>Prerna Priya</h1>
+    <p>Java Developer | Infosys | 3 Years of Experience | ₹4.8 LPA</p>
+  </header>
+
+  <div class="container">
+    <!-- PROFILE -->
+    <section id="profile">
+      <h2 class="section-title">Professional Summary</h2>
+      <p>
+        Results-driven <strong>Java Developer</strong> with 3 years of professional experience at <strong>Infosys</strong>, specializing in
+        backend development using <strong>Java</strong> and <strong>Spring Boot</strong>. Experienced in designing and maintaining scalable
+        microservices, integrating APIs, and optimizing performance using <strong>Dynatrace</strong> and <strong>Jira</strong>. Adept at
+        database management with <strong>MySQL</strong> and deployment on <strong>cloud platforms</strong> (AWS/GCP). Committed to delivering
+        high-quality software solutions that improve reliability and efficiency.
+      </p>
+    </section>
+
+    <!-- EXPERIENCE -->
+    <section id="experience">
+      <h2 class="section-title">Professional Experience</h2>
+      <div class="experience-item">
+        <h3>Software Engineer | Infosys Limited</h3>
+        <p><em>June 2022 – Present | Bengaluru, India</em></p>
+        <ul class="responsibilities">
+          <li>Developed and maintained RESTful microservices using Java and Spring Boot.</li>
+          <li>Worked with MySQL databases, optimizing queries for better performance and scalability.</li>
+          <li>Integrated Dynatrace for proactive monitoring and performance analytics, reducing downtime by 15%.</li>
+          <li>Collaborated in Agile teams using Jira to track sprints, issues, and deployments.</li>
+          <li>Deployed services to AWS using CI/CD pipelines and Jenkins automation.</li>
+          <li>Actively participated in code reviews, improving code quality and team collaboration.</li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- SKILLS -->
+    <section id="skills">
+      <h2 class="section-title">Technical Skills</h2>
+      <div class="skills-list">
+        <span class="skill">Java</span>
+        <span class="skill">Spring Boot</span>
+        <span class="skill">RESTful APIs</span>
+        <span class="skill">MySQL</span>
+        <span class="skill">AWS Cloud</span>
+        <span class="skill">Jira</span>
+        <span class="skill">Dynatrace</span>
+        <span class="skill">Microservices</span>
+        <span class="skill">Git & GitHub</span>
+        <span class="skill">Agile / Scrum</span>
+      </div>
+    </section>
+
+    <!-- PROJECTS -->
+    <section id="projects">
+      <h2 class="section-title">Key Projects</h2>
+
+      <div class="project">
+        <h3>Enterprise Service Management Portal</h3>
+        <p><strong>Technologies:</strong> Java, Spring Boot, MySQL, AWS</p>
+        <p>Developed a modular portal to automate internal IT service requests and approvals. Reduced manual workload by 35% by integrating automated workflows and notification services.</p>
+      </div>
+
+      <div class="project">
+        <h3>Real-time Application Monitoring Tool</h3>
+        <p><strong>Technologies:</strong> Java, Dynatrace, REST APIs</p>
+        <p>Built a dashboard for monitoring live metrics of production applications. Implemented alert triggers and integrated with Jira for automatic issue creation during anomalies.</p>
+      </div>
+
+      <div class="project">
+        <h3>Cloud Deployment Automation</h3>
+        <p><strong>Technologies:</strong> Spring Boot, Jenkins, AWS</p>
+        <p>Automated cloud deployments using Jenkins CI/CD pipelines, enabling zero-downtime deployments and enhancing deployment speed by 40%.</p>
+      </div>
+    </section>
+
+    <!-- EDUCATION -->
+    <section id="education">
+      <h2 class="section-title">Education</h2>
+      <div class="education-item">
+        <h3>B.Tech in Computer Science & Engineering</h3>
+        <p>XYZ Institute of Technology, 2018 – 2022</p>
+        <p>CGPA: 8.4 / 10</p>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact">
+      <h2 class="section-title">Contact Information</h2>
+      <div class="contact-info">
+        <p><strong>Email:</strong> prernapriya@example.com</p>
+        <p><strong>Phone:</strong> +91 98765 43210</p>
+        <p><strong>Location:</strong> Bengaluru, India</p>
+        <p><strong>LinkedIn:</strong> <a href="#">linkedin.com/in/prernapriya</a></p>
+        <p><strong>GitHub:</strong> <a href="#">github.com/prernapriya</a></p>
+      </div>
+      <button class="toggle-btn" onclick="toggleContact()">Toggle Contact</button>
+    </section>
+  </div>
+
+  <footer>
+    <p>© 2025 Prerna Priya | Java Developer | Infosys</p>
+  </footer>
+
+  <script>
+    function toggleContact() {
+      const contactInfo = document.querySelector('.contact-info');
+      if (contactInfo.style.display === 'none') {
+        contactInfo.style.display = 'block';
+        console.log("Contact information displayed");
+      } else {
+        contactInfo.style.display = 'none';
+        console.log("Contact information hidden");
+      }
+    }
+
+    console.log("Welcome to Prerna Priya's professional resume!");
+  </script>
+</body>
+</html>
